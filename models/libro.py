@@ -18,4 +18,5 @@ class Libro:
         disponible = "Disponible" if self.disponible else "no disponible" 
         return f"id: {self.id}, Titulo: {self.titulo}, Autor:{self.autor}, ISBN:{self.isbn}, Estado:{disponible}"
     
+
     
